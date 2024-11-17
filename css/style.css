@@ -16,7 +16,7 @@
 
 :root{
 /* light */
-  --background-light: hsl(293, 100%, 98%);
+--background-light: hsl(293, 100%, 98%);
 --on-background-light: hsl(264, 8%, 12%);
 --surface-light: hsl(293, 100%, 98%);
 --on-surface-light: hsl(264, 8%, 12%);
@@ -71,12 +71,12 @@
 --weight-medium: 500;
 
 /* border radius */
---shape-corner-extra-small: 4px;
---shape-corner-small: 8px;
---shape-corner-medium: 12px;
---shape-corner-large: 16px;
---shape-corner-full: 500px;
---shape-corner-circle: 50%;
+--radius-extra-small: 4px;
+--radius-small: 8px;
+--radius-medium: 12px;
+--radius-large: 16px;
+--radius-full: 500px;
+--radius-circle: 50%;
 
 /* box shadow */
 
@@ -86,10 +86,12 @@
 --section-padding: 24px;
 --top-bar-height: 64px;
 }
+
+
 [data-theme="light"]{
   color-scheme: light;
 
-  --background-light: var(--background-light);
+--background-light: var(--background-light);
 --on-background-light:var(--on-background-light) ;
 --surface-light: var(--surface-light);
 --on-surface-light: var(--on-surface-light);
@@ -106,9 +108,9 @@
 [data-theme="dark"]{
   color-scheme: dark;
 
-  --background-dark: var(--background-dark);
+--background-dark: var(--background-dark);
 --on-background-dark:var(--on-background-dark) ;
---surface-dark: var(--surface-light);
+--surface-dark: var(--surface-dark);
 --on-surface-dark: var(--on-surface-dark);
 --on-surface-variant-dark: var(--on-surface-variant-dark);
 --surface-container-low-dark: var(--surface-container-low-dark);
@@ -121,15 +123,15 @@
 }
 
 
-@media(prefers-reduced-motion: no-preferences){
+ @media(prefers-reduced-motion: no-preferences){
   :root{
     /* transition */
     --motion-duration-short-1: 100ms;
 
-    /* ease */
+    /* ease*/
     --motion-easing-linear: cubic-bezier(0, 0, 1, 1);
   }
-}
+}  
 
 
 
@@ -195,9 +197,111 @@ body{
   #TYPOGRAPHY
 \*-----------------------------------*/
 
+.display-large{
+  font-family: var(--font-primary);
+  font-size: var(--display-large);
+  line-height: 64px;
+  letter-spacing: -0.25px;
+  
+}
+.display-medium{
+  font-family: var(--font-primary);
+  font-size: var(--display-medium);
+  font-weight: var(--weight-regular);
+  line-height: 52px;
+}
+
+.display-small{
+  font-family: var(--font-primary);
+  font-size: var(--display-small);
+  font-weight: var(--weight-regular);
+  line-height: 44px;
+}
+
+.headline-large{
+  font-family: var(--font-primary);
+  font-size: var(--headline-large);
+  font-weight: var(--weight-regular);
+  line-height: 40px;
+}
+
+.headline-medium{
+  font-family: var(--font-primary);
+  font-size: var(--headline-medium);
+  font-weight: var(--weight-regular);
+  line-height: 36px;
+}
+
+.headline-small{
+  font-family: var(--font-primary);
+  font-size: var(--headline-small);
+  font-weight: var(--weight-regular);
+  line-height: 32px;
+}
 
 
+.title-large{
+  font-family: var(--font-primary);
+  font-size: var(--title-large);
+  font-weight: var(--weight-regular);
+  line-height: 28px;
+}
 
+.title-medium{
+  font-family: var(--font-primary);
+  font-size: var(--title-medium);
+  font-weight: var(--weight-medium);
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.title-small{
+  font-family: var(--font-primary);
+  font-size: var(--title-small);
+  font-weight: var(--weight-medium);
+  line-height: 20px;
+  letter-spacing: 0.1px;
+} 
+
+.body-large{
+  font-size: var(--body-large);
+  font-weight: var(--weight-regular);
+  line-height:24px ;
+  letter-spacing: 0.5px;
+}
+.body-medium{
+  font-size: var(--body-medium);
+  font-weight: var(--weight-regular);
+  line-height:20px ;
+  letter-spacing: 0.25px;
+}
+.body-small{
+  font-size: var(--body-small);
+  font-weight: var(--weight-regular);
+  line-height:16px ;
+  letter-spacing: 0.4px;
+}
+
+.label-large{
+  font-size: var(--label-large);
+  font-weight: var(--weight-medium);
+  line-height:20px ;
+  letter-spacing: 0.1px;
+}
+
+.label-medium{
+  font-size: var(--label-medium);
+  font-weight: var(--weight-medium);
+  line-height:16px ;
+  letter-spacing: 0.5px;
+}
+
+.label-small{
+  font-size: var(--label-small);
+  font-weight: var(--weight-medium);
+  line-height:16px ;
+  letter-spacing: 0.5px;
+}
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
