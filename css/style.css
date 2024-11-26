@@ -463,7 +463,7 @@ body{
 
 .hero .section-subtitle{color :var(--on-surface-variant);}
 
-.hero.section-text{
+.hero .section-text{
   margin-block:5px 16px;
   color: var(--on-surface-variant);
 }
