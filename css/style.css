@@ -102,7 +102,7 @@
 --primary: var(--primary-light);
 --on-primary: var(--on-primary-light);
 --outline: var(--outline-light);
---outline-variant-light: var(--outline-variant-light);
+--outline-variant: var(--outline-variant-light);
 }
 
 [data-theme="dark"]{
