@@ -5,4 +5,6 @@
 <ul><b><h3>Features</h3></b>
   <li>Elegant Design: Built using HTML and CSS to create a visually appealing and user-friendly interface.</li>
   <li>Favicon Integration: A personalized favicon to enhance branding and user recognition</li>
+  <li>Responsiveness: Optimized for devices of all sizes, from desktops to mobile phones.</li>
+  <li>Project Showcase: Highlights some of my key projects with detailed descriptions and links to source code.</li>
 </ul>
