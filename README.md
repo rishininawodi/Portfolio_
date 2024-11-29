@@ -4,4 +4,5 @@
 
 <ul>Features
   <li>Elegant Design: Built using HTML and CSS to create a visually appealing and user-friendly interface.</li>
+  <li>Favicon Integration: A personalized favicon to enhance branding and user recognition</li>
 </ul>
