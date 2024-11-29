@@ -7,4 +7,5 @@
   <li>Favicon Integration: A personalized favicon to enhance branding and user recognition</li>
   <li>Responsiveness: Optimized for devices of all sizes, from desktops to mobile phones.</li>
   <li>Project Showcase: Highlights some of my key projects with detailed descriptions and links to source code.</li>
+  <li>About Me: A dedicated section sharing insights about my skills, achievements, and aspirations.</li>
 </ul>
