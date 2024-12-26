@@ -354,6 +354,8 @@ body{
   
 }
 
+.tab-content:not(.active) {display:none ;}
+
 /*-----------------------------------*\
   #COMPONENT
 \*-----------------------------------*/
@@ -441,6 +443,24 @@ body{
 /**
  * CARD
  */
+ .card{
+  background-color: var(--surface-container-low);
+  border-radius: var(--radius-medium);
+  padding: 16px;
+  --state-layer-bg:var(--on-surface);
+ }
+ .card-banner{border-radius: var(--radius-medium);}
+
+ .card-content{
+  display: grid;
+  gap: 4px;
+ }
+
+ .card-subtitle{color: var(--on-surface-variant);}
+
+ .card-title{
+  color: var(--on-surface);
+ }
 
 
 /**
@@ -559,6 +579,14 @@ body{
 /*-----------------------------------*\
   #PROJECT
 \*-----------------------------------*/
+
+
+.project-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap: 12px;
+
+}
 
 
 
